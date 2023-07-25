@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:monospace;
+    font-size: 0.85rem;
+}
+.contenedor{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+.imagen{    
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenido_card{
+  
+    width: 300px;
+}
+
+img{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+.contenido_card{
+    display: grid;
+}
+h1, h2, h3, p{
+    margin: 0;
+    
+}
+p{
+    text-align: justify;
+    width: 280px;
+}
+h1{
+    margin-top: 10px;
+    text-align: center;   
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
